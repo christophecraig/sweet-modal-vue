@@ -1,3 +1,6 @@
+This is just to add 1 line in the sweetModalVue component to go to previous vue-router route, I needed that in my code so I forked to remember it.
+Maybe I'll keep adding things that I need for my current and future projects.
+
 # SweetModal
 
 The sweetest library to happen to modals.
