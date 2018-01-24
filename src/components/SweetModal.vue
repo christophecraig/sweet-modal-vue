@@ -289,6 +289,7 @@
 			close() {
 				this.visible = false
 				this._unlockBody()
+				window.location.hash = window.location.hash.replace(/[^/]+(?=\/$|$)/, '')
 
 				setTimeout(() => this.is_open = false, 300)
 				this.$emit('close')
